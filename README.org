@@ -1,0 +1,9 @@
+* Usage:
+#+begin_src
+  curl -fsSL https://raw.githubusercontent.com/rharuyama/initts/main/initts.sh | sh
+#+end_src
+Then, package.json -> script
+#+begin_src
+  "build": "tsc index.ts",
+  "start": "npm run build && node index.js"
+#+end_src
